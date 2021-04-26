@@ -1,0 +1,27 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Font Awesome
+@import "~@fortawesome/fontawesome-free/css/solid.min.css";
+@import "~@fortawesome/fontawesome-free/css/fontawesome.min.css";
+
+// Import Custom Mixins and Components
+@import "mixins";
+@import "global";
+@import "utilities";
+
+// Custom Components
+@import "dropdowns";
+@import "navs";
+@import "buttons";
+@import "cards";
+@import "charts";
+@import "login";
+@import "error";
+@import "footer";
